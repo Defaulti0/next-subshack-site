@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "git": "git add . && git commit -m 'update' && git push",
+    "deploy": "npm run build && npm run git && @powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./uploadToSite.ps1",
     "lint": "eslint"
   },
   "dependencies": {
