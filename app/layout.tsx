@@ -1,6 +1,6 @@
+import "./globals.css"
 import type { Metadata } from "next"
 import { Roboto, Roboto_Mono } from "next/font/google"
-import "./globals.css"
 import Header from "./_Components/Header/page"
 import Footer from "./_Components/Footer/page"
 
@@ -21,16 +21,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
     <html lang="en">
       <body
         className={`${roboto.variable} ${robotoMono.variable} antialiased`}
       >
         <Header />
-        {children}
+        <main>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
