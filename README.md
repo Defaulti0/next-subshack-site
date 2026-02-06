@@ -5,6 +5,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Learn More
 https://tailwindcss.com/docs/installation/using-vite
+https://github.com/GetNextjsTemplates/chef-kitchen-nextjs-landing-page-template/blob/main/package/src/app/components/Home/Hero/index.tsx
 
 # Palette
 https://coolors.co/palette/eeae31-dad4c9-b6a794-d8a970-523418
